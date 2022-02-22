@@ -28,4 +28,5 @@ jobs:
     runs-on: ubuntu-latest
     needs: job4
     if: success()
-    run: echo "Deployed Successfully"
+    steps:
+    - run: echo "Deployed Successfully"
